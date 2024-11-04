@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className={`${theme ? "bg-gray-800  text-white" : ""} h-screen `}>
+    <div className={`${theme ? "bg-gray-800 text-white" : ""} h-screen `}>
       <ThemeContext.Provider value={(theme, setTheme)}>
         <UserContext.Provider value={data}>
           <div className="text-end p-5 ">
