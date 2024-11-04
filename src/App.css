@@ -10,3 +10,6 @@ table thead th {
 table tbody td {
   @apply border text-center p-2;
 }
+li {
+  @apply pb-2;
+}
